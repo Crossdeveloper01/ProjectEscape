@@ -1,0 +1,166 @@
+<Document Html!>
+<html>
+<head>
+  <link rel="stylesheet" href="master.css">
+</head>
+<title> The ESCAPE </title>
+
+<body>
+<marquee>the bookings for the season are open hurahhhh </marquee>
+<h2>Form on Hero Image</h2>
+<div class="bg-img">
+  <form action="/action_page.php">
+    <div class="container">
+      <h1>Login</h1>
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit" class="btn">Login</button>
+    </div>
+  </form>
+<div class="w3-container w3-red">
+  <h1>THE ESCAPE</h1>
+</div>
+
+
+
+<div class="container">
+  
+</div>
+
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
+<div class="container">
+  <img src="https://lh3.googleusercontent.com/-g7NsTaeREoE/VkOjlS3dfFI/AAAAAAAAHmw/Hh00F1bGfmg/s1280-Ic42/01.jpg" alt="Snow" style="width:100%;">
+  
+  <div class="centered" size= "50px" >THE ESCAPE </div>
+</div>
+<div class="container">
+<footer>
+
+<div class="container red">
+  <h5><font size="10">CONTACT US</font></h5>
+</div>
+
+</div>
+<h2 style="text-align:center"> Nearby Attractions</h2>
+
+<div class="row">
+  <div class="column">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlVYoeFSEtbCVsekezKdb0e2yTZlMJELUPcqCziPOY3Yi99xKvhw" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP8_-OTgA_1vq5AXsnxbAZ2JV_VXUK_5NV88pJymvjjxRN-fOx" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC78jjA5Bl-FddF0hzASpn9QITgBXviCAPcx9BRjY5r29jvSux" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD3MauA_N_2qBQ5xJY6RAIKJvsYKcjsjT7H3Whg9NHCR_Aimqm8w" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRrcTdE8T9gB5-8gqILEvNO4-4-HAQplExHhdO0TXsPWxx9_X6" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPXmIKgbUJPiVMVqad4NyM90zYHBDLMy43iqgWEy4i7XHqQ-4" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrQd6Z_TeaoSwNvQm0Yx9zIPHz1-ug3uHWwNrMWSsKmtjXfkEr" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGhzjwGEZsPAFhrE8L_Tstbj9thaJO4w5Idoc-q3kzKoiKjXWjvw" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyULxwRG8WXtfql69QNfFIMqDOkliC6z62JzSZxRPWMSJfvvfeow" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtROKpvRkVsQkXO3hMyoJatcKlaTr2YZXNbF3TrlhQm41VK7qC" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7dOyIncebhvvQPfEGG3CrIM_r67Wl-RgAna1efH4isFjJYCvTCg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdU0aqU3ZqXJZDElM9uh6POq3B0tkUYzzYlB0PaG_T3qHKpOHzlw" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+  </div>
+</div>
+
+<script>
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+  <p>Posted by: Anshul Sharma</p>
+  <p>Contact information: <a href="anshulamrahs@gmail.com">anshulamrahs@gmail.com</a>.</p>
+</footer>
+
+<p><strong>Note:</strong> Please contact only on business days </p>
+
+
+</body>
+
+</html>
